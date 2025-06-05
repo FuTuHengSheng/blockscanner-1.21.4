@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "blockscanner",
+	"version": "2.0.0",
+	"name": "BlockScanner",
+	"description": "扫描玩家附近区块的指定方块/实体并输出坐标等信息。",
+	"entrypoints": {
+		"main": [
+			"com.gl.blockscanner.BlockScannerMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "1.21.4"
+	}
+}
